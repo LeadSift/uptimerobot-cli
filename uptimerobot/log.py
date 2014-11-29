@@ -7,8 +7,8 @@ from termcolor import colored
 from .alert_contact import AlertContact
 
 class Log(object):
-    TIMESTAMP_FORMAT = "%m/%d/%Y %H:%M:%S"
-    TIMESTAMP_FORMAT_ALT = "%m/%d/%Y %H:%M:%S %p"
+    TIMESTAMP_FORMAT = "%m/%d/%y %H:%M:%S"
+    TIMESTAMP_FORMAT_ALT = "%m/%d/%y %H:%M:%S %p"
 
 
     class Type:
